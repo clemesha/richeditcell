@@ -7,6 +7,8 @@
         editAreaLoader.init({
         id: "c1", // id of the textarea to transform		
         toolbar: "",
+        min_width: 600,
+        min_height: 300,
         allow_resize: "x",
         allow_toggle: false,
         display: "onload",
@@ -30,6 +32,17 @@ for i in range(23):
         
 def fun(x, y):
     x + y / (x**2 + y**2)
+
+class Adder:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def add(self):
+        return self.a + self.a
+
+l = [fun(n, 2) for n in range(10)]
+
     </textarea>
     </div>
     <div id="footer">

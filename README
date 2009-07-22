@@ -1,0 +1,13 @@
+Rich Edit Cell - Syntax Highlighting, etc for codenode cells
+============================================================
+
+This code represents a first exploration of adding 
+rich editing functionality (most importantly: code syntax highlighting)
+to the cells of codenode.
+
+It uses "EditArea" (http://www.cdolivet.com/index.php?page=editArea),
+which I like for 2 reasons:
+1) It is very complete looking, and the docs are solid:
+http://www.cdolivet.com/editarea/editarea/docs/
+2)There is a plugin mechanism: 
+  http://www.cdolivet.com/editarea/editarea/docs/customization_plugin.html
